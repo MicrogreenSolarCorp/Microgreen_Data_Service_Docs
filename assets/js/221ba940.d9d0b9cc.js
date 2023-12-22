@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmicrogreen_data_service_docs=self.webpackChunkmicrogreen_data_service_docs||[]).push([[726],{3769:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
