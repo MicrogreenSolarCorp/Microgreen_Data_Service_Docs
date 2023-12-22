@@ -1,6 +1,6 @@
 # Microgreen Data Service Docs
 
-This is the documentation site for the [Microgreen Data Service](https://github.com/MicrogreenSolarCorp/Microgreen_Data_Service) project (Project link [here](https://my.microgreen.ca)).
+This is the documentation site for the [Microgreen Data Service](https://github.com/MicrogreenSolarCorp/Microgreen_Data_Service) project (Production link [here](https://my.microgreen.ca)).
 
 This documentation site is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
