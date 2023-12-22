@@ -1,4 +1,4 @@
-# Microgreen_Data_Service_Docs
+# Microgreen Data Service Docs
 
 This is the documentation site for the [Microgreen Data Service](https://github.com/MicrogreenSolarCorp/Microgreen_Data_Service) project (Project link [here](https://my.microgreen.ca)).
 
