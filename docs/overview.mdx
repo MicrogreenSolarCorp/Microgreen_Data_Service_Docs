@@ -1,0 +1,55 @@
+---
+sidebar_position: 1
+slug: /
+---
+# Overview
+
+<!-- Using MDX to control size of image (portrait screenshots too tall) -->
+import Historical from './frontend/img/historical.png';
+import Navbar from './frontend/img/navbar.png';
+import Realtime1 from './frontend/img/realtime1.png';
+import Realtime2 from './frontend/img/realtime2.png';
+import Settings from './frontend/img/settings.png';
+
+import LandingDesktop from './frontend/img/landingDesktop.png';
+import RealtimeDesktop from './frontend/img/realtimeDesktop.png';
+import HistoricalDesktop from './frontend/img/historicalDesktop.png';
+import HistoricalDesktop2 from './frontend/img/historicalDesktop2.png';
+import HistoricalDesktop3 from './frontend/img/historicalDesktop3.png';
+import SettingsDesktop from './frontend/img/settingsDesktop.png';
+
+
+Microgreen Data Service is a cloud-based data logging solution for the EnergyPak lithium battery. It is a Progressive Web App (PWA) that is used by the customer to connect to the hardware module and send the data to the cloud. The backend is a cloud-based service that receives the data from the hardware module and stores it in a database. The hardware module is an ESP32 microcontroller that is connected to the EnergyPak via a RS485/232 communication cable.
+
+## Production Link
+[my.microgreen.ca](https://my.microgreen.ca)
+
+## Mobile App
+<img src={Realtime1} height="800"/>
+<img src={Realtime2} height="800"/>
+<img src={Historical} height="400"/>
+<img src={Navbar} height="800"/>
+<img src={Settings} height="800"/>
+
+## Desktop Site
+<img src={LandingDesktop}/>
+<img src={RealtimeDesktop}/>
+<img src={HistoricalDesktop}/>
+<img src={HistoricalDesktop2}/>
+<img src={HistoricalDesktop3}/>
+<img src={SettingsDesktop}/>
+
+
+## Inspiration
+Currently, when a customer reports an issue with their EnergyPak lithium battery, our technical support team does not have any method to gather data from the battery to aid in our diagnosis. A recently developed app, [EPDataLog](https://github.com/MicrogreenSolarCorp/EPDataLog), can aid with this issue, but the user must have a computer physically connected to the EnergyPak, ensure that the computer doesn't go to sleep, and then must forward that data via email to Microgreen's technical support team.
+
+This project aims to solve those shortcomings with a cloud-based solution. We would send the customer a hardware module that the user would then connect to their EnergyPak. The module will log data from the EnergyPak and send it to a cloud where the technical support team would be able to see it from an internal frontend dashboard.
+
+## Components
+There are frontend, backend, and hardware components to this project. The frontend is a Progressive Web App (PWA) that is used by the customer to connect to the hardware module and send the data to the cloud. The backend is a cloud-based service that receives the data from the hardware module and stores it in a database. The back-end also provides an internal dashboard for the technical support team to view the data. The hardware module is an ESP32 microcontroller that is connected to the EnergyPak via a RS485/232 depending on the BMS version.
+
+## Future Enhancements
+- Add a bluetooth method of data communication (useful if user doesn't have a Wifi connection)
+- Expand the project to support other Microgreen products like the PowerPak
+- Add the ability to write BMS parameters to the EnergyPak
+

@@ -1,0 +1,50 @@
+---
+sidebar_position: 1
+description: The overview of the frontend portion of the project
+---
+
+# Overview
+
+<!-- Using MDX to control size of image (portrait screenshots too tall) -->
+import Historical from './img/historical.png';
+import Navbar from './img/navbar.png';
+import Realtime1 from './img/realtime1.png';
+import Realtime2 from './img/realtime2.png';
+import Settings from './img/settings.png';
+
+## Libaries Used
+- Next.js 14 + Typescript + Tailwind
+- NextUI UI library
+    - next-themes used for easy theming
+- Chart.js used for charts
+    - chartjs-plugin-zoom used for zooming and panning charts
+- React Query used for data fetching and caching
+- next-pwa used for PWA support
+
+## Pages
+### Realtime
+- Data is split into 5 sections:
+    - SOC + Remaining capacity
+    - Voltage + Current + Discharge status
+    - Cell Voltages
+    - Cell Temperatures
+    - Alarms
+<img src={Realtime1} height="800"/>
+<img src={Realtime2} height="800"/>
+### Historical
+- Data is split into 5 charts:
+    - Voltage + SOC
+    - Current
+    - Min/Max Cell Voltages
+    - Min/Max Temperatures
+    - dischargningMOSStatus + chargingMOSStatus + BalancingStatus
+<img src={Historical} height="400"/>
+### Settings
+Allows user to:
+- View the list of registered devices
+- Delete a device
+- Add a device
+    - This process involves connecting a device to bluetooth and then entering the Wifi ssid and password for the device to be able to connect to the internet
+- Signout
+<img src={Settings} height="800"/>
+
